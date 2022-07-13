@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Jupiter.E2EProject.validateHomePage"/>
+      <class name="Jupiter.E2EProject.validateLoginPage"/>
+      <class name="Jupiter.E2EProject.verifyContactPage"/>
+      <class name="Jupiter.E2EProject.validateShoppingPage"/>
+      <class name="Jupiter.E2EProject.VerifyCheckoutPage"/>
+      <class name="Jupiter.E2EProject.verifyCartAmount"/>
+      <class name="Jupiter.E2EProject.verifyEndToEnd"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
